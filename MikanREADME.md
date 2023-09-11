@@ -1,25 +1,26 @@
 
   # asdf
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
-
-- [Contributing](#Contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description 
 asdf
 
 ## Installation
-adsf
-
-## Usage
 adf
 
+## Usage
+adfs
 
+## License
+MIT
 
 ## Contributing 
 asdf
@@ -28,6 +29,11 @@ asdf
 asdf
 
 ## Questions 
-asdf
-asdf
+adf
+
+**Contact me**
+
+GitHub: https://github.com/asdf
+
+Email: asdf
 
