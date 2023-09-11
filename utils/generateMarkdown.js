@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
   if(license == "none"){
 return "";
   }else{
-  return  "- [License](#License)"
+  return"- [License](#License)"
   }
 }
 // TODO: Create a function that returns the license section of README
@@ -67,8 +67,13 @@ ${inputData.contributing}
 ${inputData.tests}
 
 ## Questions 
-${inputData.github}
-${inputData.email}
+${inputData.questions}
+
+**Contact me**
+
+GitHub: https://github.com/${inputData.github}
+
+Email: ${inputData.email}
 
 `;
 }
