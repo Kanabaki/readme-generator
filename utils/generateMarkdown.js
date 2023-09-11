@@ -45,7 +45,7 @@ ${renderLicenseBadge(inputData.license)}
 - [Installation](#Installation)
 - [Usage](#Usage)
 ${renderLicenseLink(inputData.license)}
-- [Contributing](#Contributing)
+- [Contributing](##Contributing)
 - [Tests](#Tests)
 - [Questions](#Questions)
 
