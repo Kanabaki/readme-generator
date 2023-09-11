@@ -9,27 +9,67 @@ const genMark = require("./utils/generateMarkdown")
             message: "What would you like to title your readme?",
             name: "title",
         },
-        // Description:
-        // What was your motivation?
-        // Why did you build this project?
-        // What problem does it solve?
-        // What did you learn?
-        // Table of Contents
-        // Installation
-        // Usage
-
+        {
+            type: "input",
+            message:"What was your motivation for the project?",
+            name: "description",
+        },
+        {
+            type: "input",
+            message:"Why did you build this project?",
+            name: "description",
+        },
+        {
+            type: "input",
+            message:"What problem does it solve?",
+            name: "description",
+        },
+        {
+            type: "input",
+            message:"What did you learn?",
+            name: "description",
+        },
+        {
+            type: "input",
+            message:"What are the steps required to install your project?",
+            name: "installation",
+        },
+        {
+            type: "input",
+            message:"Enter instructions and examples for use.",
+            name: "usage",
+        },
         {
             type: "list",
             message: "Choose a License",
             name: "license",
-            choices: ["MIT","none",]   
-        }
-
-        // Contributing
-        // Tests
-        // Questions
-        // enter my GitHub username
-        // enter my email address
+            choices: ["MIT","Apache","GPLv2","GPLv3","none",]   
+        },
+        {
+            type: "input",
+            message:"Contributing",
+            name: "contributing",
+        },
+        {
+            type: "input",
+            message:"Tests",
+            name: "tests",
+        },
+        {
+            type: "input",
+            message:"Questions",
+            name: "questions",
+        },
+        {
+            type: "input",
+            message:"Enter your GitHub username",
+            name: "github",
+        },
+        {
+            type: "input",
+            message:"Enter your email address",
+            name: "email",
+        },
 ];
    
 
@@ -42,7 +82,6 @@ if (err)
 console.log(err);
 else {
     console.log("File written successfully\n")
-    console.log("mikankanmikankanmikan")
 }
 });
 }
