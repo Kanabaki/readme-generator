@@ -6,7 +6,8 @@ const genMark = require("./utils/generateMarkdown")
  const questions = [
         {
             type: "input",
-            message: "What would you like to title your readme?",
+            message:`Title:
+            "What would you like to title your readme?`,
             name: "title",
         },
         {
