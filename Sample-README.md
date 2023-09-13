@@ -1,5 +1,5 @@
 
-  # test final
+  # Readme Demo
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
 - [Description](#description)
@@ -11,27 +11,27 @@
 - [Questions](#questions)
 
 ## Description 
-making read me generator
+To learn node.
 
 ## Installation
-you would need to npm install possibly
+Download off github and run the line in the usage section.
 
 ## Usage
-You come in and invoke the node terminal using node index.js
+Use node index.js to run the app.
 
 ## License
 License: MIT
 
 ## Contributing 
-ya'll ain't gotta do all that
+n/a
 
 ## Tests 
-no tests at this time
+n/a
 
 ## Questions 
 If you have questions regarding the app, you can reach out to my github or email.
 
-GitHub: https://github.com/Kanabaki
+GitHub: https://github.com/kanabaki
 
-Email: kagomekanabaki@gmail.com
+Email: email@email.com
 
