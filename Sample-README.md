@@ -1,5 +1,5 @@
 
-  # asdf
+  # test final
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
 - [Description](#description)
@@ -11,29 +11,27 @@
 - [Questions](#questions)
 
 ## Description 
-asdf
+making read me generator
 
 ## Installation
-adf
+you would need to npm install possibly
 
 ## Usage
-adfs
+You come in and invoke the node terminal using node index.js
 
 ## License
-MIT
+License: MIT
 
 ## Contributing 
-asdf
+ya'll ain't gotta do all that
 
 ## Tests 
-asdf
+no tests at this time
 
 ## Questions 
-adf
+If you have questions regarding the app, you can reach out to my github or email.
 
-**Contact me**
+GitHub: https://github.com/Kanabaki
 
-GitHub: https://github.com/asdf
-
-Email: asdf
+Email: kagomekanabaki@gmail.com
 

@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
   if(license == "none"){
 return "";
   }else{
-  return"- [License](#License)"
+  return"- [License](#license)"
   }
 }
 // TODO: Create a function that returns the license section of README
@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
     return "";
       }else{
       return `## License
-${license}`
+License: ${license}`
       }
 
 }
@@ -41,13 +41,13 @@ function generateMarkdown(inputData) {
   # ${inputData.title}
 ${renderLicenseBadge(inputData.license)}
   ## Table of Contents
-- [Description](#Description)
-- [Installation](#Installation)
-- [Usage](#Usage)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
 ${renderLicenseLink(inputData.license)}
-- [Contributing](##Contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description 
 ${inputData.description}
@@ -67,9 +67,7 @@ ${inputData.contributing}
 ${inputData.tests}
 
 ## Questions 
-${inputData.questions}
-
-**Contact me**
+If you have questions regarding the app, you can reach out to my github or email.
 
 GitHub: https://github.com/${inputData.github}
 

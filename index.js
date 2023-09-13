@@ -7,59 +7,64 @@ const genMark = require("./utils/generateMarkdown")
         {
             type: "input",
             message:`Title:
-            "What would you like to title your readme?`,
+"What would you like to title your readme?\n`,
             name: "title",
         },
         {
             type: "input",
-            message:"What was your motivation for the project?",
+            message:`Description:
+What was your motivation for the project?\n`,
             name: "description",
         },
         {
             type: "input",
-            message:"Why did you build this project?",
-            name: "description",
+            message:`Description:
+Why did you build this project?\n`,
+            name: "description1",
         },
         {
             type: "input",
-            message:"What problem does it solve?",
-            name: "description",
+            message:`Description:
+What problem does it solve?\n`,
+            name: "description2",
         },
         {
             type: "input",
-            message:"What did you learn?",
-            name: "description",
+            message:`Description:
+What did you learn?\n`,
+            name: "description3",
         },
         {
             type: "input",
-            message:"What are the steps required to install your project?",
+            message:`Installation:
+What are the steps required to install your project?\n`,
             name: "installation",
         },
         {
             type: "input",
-            message:"Enter instructions and examples for use.",
+            message:`Usage:
+Enter instructions and examples for use.\n`,
             name: "usage",
         },
         {
             type: "list",
-            message: "Choose a License",
+            message: `License:
+Choose a License (Use Arrow keys and press Enter to make your selection)`,
             name: "license",
             choices: ["MIT","Apache","GPLv2","GPLv3","none",]   
         },
         {
             type: "input",
-            message:"Contributing",
+            message:`Contributing:
+If you would like other developers to contribute to this app or package, you 
+can include guidelines for it here\n`,
             name: "contributing",
         },
         {
             type: "input",
-            message:"Tests",
+            message:`Tests:
+If you've written tests for your app, you can provide examples on how to run them here\n`,
             name: "tests",
-        },
-        {
-            type: "input",
-            message:"Questions",
-            name: "questions",
         },
         {
             type: "input",
@@ -78,7 +83,7 @@ const genMark = require("./utils/generateMarkdown")
 // function writeToFile(fileName,Data)
 
 function writeToFile(markdown) {
-fs.writeFile("MikanREADME.md", markdown, (err) => {
+fs.writeFile("Sample-README.md", markdown, (err) => {
 if (err)
 console.log(err);
 else {
